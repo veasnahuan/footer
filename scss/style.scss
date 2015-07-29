@@ -1,0 +1,31 @@
+*{
+ box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	height: 100%;
+}
+main{
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	margin: 0;
+	padding: 15px;
+	background: #333;
+	color: #55bada;
+	height: 100%;
+	margin-bottom: 200px;
+}
+
+footer{
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	background: black;
+	color: #bada55;
+	position: fixed;
+	bottom: 0; left: 0;
+}
